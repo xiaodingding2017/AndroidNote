@@ -14,7 +14,7 @@ Profile（内存分析器，CPU分析器，网络代码分析）
 
 设计模式：单例模式，观察者模式，工厂模式，建造者模式
 
-[数据结构](/数据结构.md)：线性表arraylist，链表linkedlist， 栈stack，队列queue  messagequeue，二叉树平衡树红黑树，表hashmap hashtable，SpareArray
+[数据结构](/性能优化/数据结构.md)：线性表arraylist，链表linkedlist， 栈stack，队列queue  messagequeue，二叉树平衡树红黑树，表hashmap hashtable，SpareArray
 
 排序算法：冒泡排序，直接插入排序，堆排序，基数排序，快速排序
 
