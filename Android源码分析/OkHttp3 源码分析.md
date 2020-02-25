@@ -10,11 +10,6 @@ GZip透明压缩减少传输的数据包大小。
 响应缓存，避免同一个重复的网络请求。
 基于OKIO操作存储，提供性能。
 
-作者：sososeen09
-链接：https://www.jianshu.com/p/c70d0ce5400c
-来源：简书
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-
 
 参考链接：
 https://blog.csdn.net/qq_41979349/article/details/102823696
