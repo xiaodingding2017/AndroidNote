@@ -327,3 +327,6 @@ msg.target.dispatchMessage(msg); 调用handler分发消息；
 
 
 参考链接：<https://www.bilibili.com/video/av70968406?p=6>
+
+Android Handler机制11之Handler机制总结
+https://www.jianshu.com/p/f03a3dc55941
