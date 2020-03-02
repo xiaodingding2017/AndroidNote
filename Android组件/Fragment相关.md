@@ -1,0 +1,22 @@
+
+
+setUserVisibleHint(isVisibleToUser: Boolean)
+isVisibleToUser可以判断fragment是否可见；
+当我们将Android项目迁移到Androidx并将androidx版本升级到1.1.0之后发现，
+我们第一节中用到的setUserVisibleHint(isVisibleToUser: Boolean)方法已被标记为废弃了！
+
+并且从注释中可以看到使用 FragmentTransaction#setMaxLifecycle(Fragment, Lifecycle.State)
+方法来替换setUserVisibleHint方法。setMaxLifecycle实在Androidx 1.1.0中新增加的一个方法。
+
+在Androidx 1.1.0版本中的FragmentStatePagerAdapter已经帮我们实现了，只需要在使用时候传进去相应的参数即可。
+当behavior为BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT时意味着只有当前显示的Fragment会被执行到onResume，
+而其它Fragment的生命周期都只会执行到onStart.
+
+ViewPager2中，默认关闭了预加载机制
+如果为ViewPager2设置了offScreenPageLimit(1)
+此时处理懒加载问题其实和ViewPager的懒加载新方案如出一辙了
+
+
+参考链接：
+Fragment延迟加载
+https://juejin.im/post/5e085dafe51d45580769a1eb
