@@ -1,4 +1,4 @@
-
+ Fragment延迟加载
 
 setUserVisibleHint(isVisibleToUser: Boolean)
 isVisibleToUser可以判断fragment是否可见；
