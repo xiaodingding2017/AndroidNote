@@ -1,5 +1,9 @@
 
 
+Retrofit是一个基于AOP思想，对RestfulApi注解进行动态代理的网络框架。
+
+
+
 
 参考链接：
 
